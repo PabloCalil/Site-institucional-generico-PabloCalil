@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --brand1: #4C6EF5;
+    --brand2: #364FC7;
+    --gray1: #191C1F;
+    --gray2: #212529;
+    --gray3: #343A40;
+    --gray4: #ADB5BD;
+    --gray5: #CED4DA;
+    --gray6: #EDF2FF;
+    --gray7: #F8F9FA;
+    --fontDefault: 'Inter', sans-serif;
+    --fontWeightTitle1: 600;
+    --fontSizeTitle1: clamp(1.5rem, 1.321rem + 2.143vw, 3.25rem);
+    --lineHeightTitle1: 140%;
+    --fontWeightTitle2: 600;
+    --fontSizeTitle2: clamp(0.9rem, 0.25rem + 2.5vw, 2.5rem);
+    --lineHeightTitle2: 160%;
+    --fontWeightTitle3: 600;
+    --fontSizeTitle3: clamp(0.8rem, 0.2rem + 2vw, 2rem);
+    --lineHeightTitle3: 160%;
+    --fontWeightText1: 400;
+    --fontSizeText1: clamp(0.9rem, 0.157rem + 1.214vw, 1.25rem);
+    --lineHeightText1: 150%;
+    --fontWeightText2: 400;
+    --fontSizeText2: clamp(0.8rem, 0.129rem + 1.107vw, 1.125rem);
+    --lineHeightText2: 150%;
+    --fontWeightText3: 400;
+    --fontSizeText3: clamp(0.7rem, 0.1rem + 1vw, 1rem);
+    --lineHeightText3: 150%;
+    --fontWeightText4: 600;
+    --fontSizeText4: clamp(0.7rem, 0.1rem + 1vw, 1rem);
+    --lineHeightText4: 150%;
+    --inputDefaultBackground: var(--gray1);
+    --inputDefaultColor: var(--gray4);
+    --inputDefaultBorder: 1px solid var(--gray1);
+    --inputPadding: clamp(0.5rem, 0.393rem + 0.536vw, 0.875rem) clamp(0.75rem, 0.607rem + 0.714vw, 1.25rem);
+    --inputValidBackground: var(--gray3);
+    --inputValidColor: var(--gray4);
+    --inputValidBorder: 1px solid var(--gray3);
+    --inputFocusBackground: var(--gray2);
+    --inputFocusColor: var(--gray6);
+    --inputFocusBorder: 1px solid var(--brand1);
+    --buttonHeight: clamp(1rem, 0.214rem + 3.929vw, 3.75rem);
+    --buttonPadding: clamp(0.25rem, -0.036rem + 1.429vw, 1.25rem) clamp(0.75rem, 0.393rem + 1.786vw, 2rem);
+    --buttonBrandDefaultBackground: var(--brand1);
+    --buttonBrandDefaultBorder: 1px solid var(--brand1);
+    --buttonBrandDefalutColor: var(--gray7);
+    --buttonBrandHoverBackground: var(--brand2);
+    --buttonBrandHoverBorder: 1px solid var(--brand2);
+    --buttonBrandHoverColor: var(--gray7);
+    --buttonDefaultBorder: 1px solid var(--gray7);
+    --buttonDefaultColor: var(--gray7);
+}
+
+body{
+    font-family: var(--fontDefault);
+    display: flex;
+    flex-direction: column;
+}
