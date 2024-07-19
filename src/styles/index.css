@@ -2,8 +2,8 @@
     background-color: var(--gray1);
     border-bottom: 2px solid var(--brand1);
 
-    height: clamp(1rem, -0.5rem + 7.5vw, 6.25rem);
-    padding: clamp(0.25rem, -0.036rem + 1.429vw, 1.25rem) clamp(0rem, -2.857rem + 14.286vw, 10rem);
+    height: clamp(3rem, -0.5rem + 7.5vw, 6.25rem);
+    padding: clamp(0.75rem, -0.036rem + 1.429vw, 1.25rem) clamp(0rem, -2.857rem + 14.286vw, 10rem);
 
     display: flex;
     align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .header__title{
-    max-width: clamp(3rem, 0.286rem + 13.571vw, 12.5rem);
+    max-width: clamp(9rem, 0.286rem + 13.571vw, 12.5rem);
 }
 
 .header__button{
@@ -315,7 +315,7 @@ span{
 
 .footer{
     background-color: var(--gray1);
-    height: clamp(1rem, -0.5rem + 7.5vw, 6.25rem);
+    height: clamp(3rem, -0.5rem + 7.5vw, 6.25rem);
 
     display: flex;
     justify-content: center;
@@ -323,7 +323,7 @@ span{
 }
 
 .footer__icon{
-    max-width: clamp(3rem, 0.286rem + 13.571vw, 12.5rem);
+    max-width: clamp(9rem, 0.286rem + 13.571vw, 12.5rem);
 }
 
 .modalController{
@@ -507,5 +507,9 @@ span{
 @media(max-width: 425px){
     .header__button{
         display: none;
+    }
+
+    .header{
+
     }
 }
